@@ -1,0 +1,28 @@
+.footer {
+  display: absolute;
+  color: white;
+  background-color: #232f3e;
+  padding: 10px;
+  width: 100%;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.footer__columns {
+  display: table-cell;
+  padding: 20px;
+  height: 100%;
+}
+
+.footer__columns > h4 {
+  padding-bottom: 10px;
+}
+
+.footer__columns > h5 {
+  color: lightgray;
+  padding-bottom: 10px;
+}
+
+.footer__columns > h5:hover {
+  text-decoration: underline;
+}

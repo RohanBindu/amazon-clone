@@ -12,6 +12,10 @@
   z-index: 1;
 }
 
+.product:hover {
+  transform: scale(1.05);
+}
+
 .product__rating {
   display: flex;
 }
